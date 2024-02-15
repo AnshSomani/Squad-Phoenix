@@ -1,0 +1,185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #1e88e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #1e88e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 400px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.container label {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container label:hover {
+    background-color: #c5cae9;
+}
+
+input[type="checkbox"] {
+    /* display: none; */
+}
+
+/* ---------- custom checkbox design ---------- */
+label .custom_checkbox_box {
+    width: 25px;
+    height: 25px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    /* border: 2px solid; */
+
+}
+
+label .custom_checkbox_box .custom_checkbox {
+    width: 25px;
+    height: 15px;
+    left: 3px;
+    /* border: 2px solid; */
+    rotate: -45deg;
+    position: relative;
+}
+
+/*---------- Custom checkbox checkmark animation ----------*/
+label .custom_checkbox_box .custom_checkbox .line1 {
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: #1e88e5;
+    border-radius: 100px;
+}
+
+
+label .custom_checkbox_box .custom_checkbox .line2 {
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    bottom: 0px;
+    background-color: #1e88e5;
+    border-radius: 100px;
+}
+
+
+/*---------- Custom checkbox checkmark animation ends ----------*/
+/* ---------- custom checkbox design ends ---------- */
+
+label p {
+    margin-left: 15px;
+    font-size: 25px;
+}
+
+.container .checkbox_value p {
+    font-size: 20px;
+    background-color: #f2f2f2;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.container button {
+    font-size: 25px;
+    color: #fff;
+    background-color: #1e88e5;
+    width: 100%;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container button:active {
+    transform: scale(0.9);
+}
+
+label .custom_checkbox_box .custom_checkbox .line1{
+    position: absolute;
+    height: 0%;
+    width: 5px;
+    background-color: #1e88e5;
+    border-radius: 100px;
+    transition: 0.1s;
+    transition-delay: 0.1s;
+}
+
+label .custom_checkbox_box .custom_checkbox .line2{
+    position: absolute;
+    height: 5px;
+    width: 0%;
+    bottom: 0px;
+    background-color: #1e88e5;
+    border-radius: 100px;
+    transition: 0.1s;
+}
+
+label .custom_checkbox_box .custom_checkbox .line1{
+    position: absolute;
+    height: 0%;
+    width: 5px;
+    background-color: #1e88e5;
+    border-radius: 100px;
+    transition: 0.1s;
+    transition-delay: 0.1s;
+}
+
+label .custom_checkbox_box .custom_checkbox .line2{
+    position: absolute;
+    height: 5px;
+    width: 0%;
+    bottom: 0px;
+    background-color: #1e88e5;
+    border-radius: 100px;
+    transition: 0.1s;
+}
+
+label .active .custom_checkbox .line1{
+    height: 100%;
+    transition: 0.1s;
+}
+label .active .custom_checkbox .line2{
+    width: 100%;
+    transition: 0.1s;
+    transition-delay: 0.1s;
+}
+
