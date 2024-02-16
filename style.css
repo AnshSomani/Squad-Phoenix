@@ -279,25 +279,22 @@
     padding-top: 20px;
 }
 .feature-card:nth-child(1){
-    background-color: #4a90e2;
-    opacity: 0.9;
-}
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));}
 .feature-card:nth-child(2){
-    background-color: #ff6289;
+    background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);
 }
 .feature-card:nth-child(3){
-    background-color: #fcbf58;
+    background: radial-gradient(circle at 0.8% 3.1%, rgb(255, 188, 224) 0%, rgb(170, 165, 255) 46%, rgb(165, 255, 205) 100.2%);
 }
 .feature-card:nth-child(4){
-    background-color: #44bfc3;
+    background: linear-gradient(109.6deg, rgb(17, 151, 147) 11.2%, rgb(154, 214, 212) 55.4%, rgb(255, 233, 171) 100.2%);
 }
 .feature-card:nth-child(5){
-    background-color: #77b05d;
+    background: linear-gradient(135deg, rgb(255, 168, 168) 10%, rgb(252, 255, 0) 100%);
 }
 .feature-card:nth-child(6){
-    background-color: #7b78b1;
+    background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
-
 .card-grid{
     display:grid;
     grid-template-columns: repeat(auto-fill,minmax(12rem,1fr));
