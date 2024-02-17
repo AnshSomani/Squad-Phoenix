@@ -1,12 +1,4 @@
 
-
-function circleMouseFollower(){
-    window.addEventListener("mousemove", function(dets){
-        document.querySelector("#minicircle").style.transform = `translate(${dets.clientX}px, ${dets.clientY}px)`;
-    });
-}
-
-circleMouseFollower();
 let sidebar = document.querySelector(".sidebar");
   let closeBtn = document.querySelector("#btn");
   let searchBtn = document.querySelector(".bx-search");
