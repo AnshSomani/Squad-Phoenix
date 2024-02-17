@@ -267,10 +267,9 @@
 
 .main-container{
     margin-left: 78px;
-    margin-right: 10px;
     background: radial-gradient(circle,#5a585a,#090947);
-    height: 100vw;
-    width: 90rem;
+    height: 60vw;
+    width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
